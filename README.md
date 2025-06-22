@@ -18,8 +18,9 @@ src/models/ - Includes scripts for training and evaluating models:
 
 us_adult_census/, us_diabetes/, nz_census/, nz_acc/, taiwan_credit/ - Each dataset has its own folder with results and code organised by stage:
 • base_model/: Baseline model performance and fairness evaluation
+Mitigation techniques applied only for datasets observed with disparities: U.S. Census and NZ Census
 • augmentation/: Data balancing experiments using SMOTE variants and GANs
-• mitigation/ (only for Adult and NZ Census): Bias mitigation using Reweighing, Adversarial Debiasing (ADB), and Calibrated Equalised Odds (CEO)
+• mitigation/: Bias mitigation using Reweighing, Adversarial Debiasing (ADB), and Calibrated Equalised Odds (CEO)
 
 outputs/ - Stores generated results and visual summaries for each dataset in separate subfolders:
 • Evaluation metrics, comparison tables, and charts
